@@ -14,7 +14,7 @@ const Products = () => {
       });
   }, []);
   return (
-    <div className="container">
+    <div className="container mbb-5 pb-5">
       {loading ? (
         <Spinner></Spinner>
       ) : (

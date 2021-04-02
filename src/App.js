@@ -6,6 +6,7 @@ import Dashboard from "./components/Dashboard/Dashboard";
 import Deals from "./components/Deals/Deals";
 import Header from "./components/Header/Header";
 import Login from "./components/Login/Login";
+import NotFound from "./components/NotFound/NotFound";
 import Orders from "./components/Orders/Orders";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import Products from "./components/Products/Products";
@@ -49,6 +50,9 @@ function App() {
           </PrivateRoute>
           <Route path="/login">
             <Login></Login>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
           </Route>
         </Switch>
       </Router>

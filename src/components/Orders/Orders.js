@@ -43,7 +43,7 @@ const Orders = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container mb-5 pb-5">
       <div className="w-100 d-flex flex-md-row flex-column justify-content-md-between justify-content-center align-items-center p-md-4 p-0 pt-4">
         <h3 className="text-md-start text-center mb-md-0 mb-4">Your Orders</h3>
         <div>

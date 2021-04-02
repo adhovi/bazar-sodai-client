@@ -43,7 +43,7 @@ const ManageProduct = () => {
         <Spinner></Spinner>
       ) : (
         <div>
-          <div className="add-product p-4 px-md-5 px-4 mt-3 text-md-start text-center">
+          <div className="add-product p-4 px-md-5 px-4 mt-4 text-md-start text-center">
             <div className="row title p-2 pt-3 mb-2">
               <div className="col-md-4">
                 <h6>Product Name</h6>

@@ -1,0 +1,13 @@
+.not-found {
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.07);
+  transition: 0.3s;
+  text-align: center;
+}
+.not-found-page h1 {
+  font-size: 6em;
+}
+.not-height {
+  height: 90vh;
+}
