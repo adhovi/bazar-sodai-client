@@ -1,11 +1,6 @@
 .order-details img {
   width: 10%;
 }
-@media only screen and (max-width: 768px) {
-  .order-details img {
-    width: 20%;
-  }
-}
 h5 {
   font-size: 1.1rem;
 }
@@ -16,4 +11,14 @@ hr {
   opacity: 0.5;
   color: rgba(168, 168, 168, 0.438);
   background: rgba(136, 136, 136, 0.5);
+}
+@media only screen and (min-width: 1024px) {
+  .icon-delete {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .order-details img {
+    width: 30%;
+  }
 }

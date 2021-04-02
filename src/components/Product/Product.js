@@ -5,7 +5,7 @@ import "./Product.css";
 const Product = (props) => {
   const { name, weight, price, img, _id } = props.product;
   return (
-    <div className="col-md-3">
+    <div className="col-sm-12 col-md-6 col-lg-4 col-xl-3">
       <div className="card my-card p-3">
         <img src={img} className="card-img-top" alt="..." />
         <div className="card-body my-body">

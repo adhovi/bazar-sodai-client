@@ -101,7 +101,7 @@ const Orders = () => {
                 </div>
                 <div className="col-md-2 text-center">{order.date}</div>
                 <div className="col-md-1 text-center">{order.time}</div>
-                <div className="col-md-1 d-flex justify-content-center px-3">
+                <div className="col-md-1 d-flex justify-content-center px-0">
                   <div>
                     <button
                       onClick={() => {
