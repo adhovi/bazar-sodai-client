@@ -1,0 +1,23 @@
+.menu-item ul {
+  margin: 0;
+}
+.menu-item ul li {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.menu-item img {
+  width: 7%;
+  margin-right: 10px;
+}
+.active-bg {
+  background: #2d524a;
+  padding: 8px;
+}
+.my-link,
+.my-link:hover {
+  text-decoration: none;
+  color: white;
+}

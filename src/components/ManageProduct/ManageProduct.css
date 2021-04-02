@@ -1,0 +1,14 @@
+.title {
+  background: #f5f6fa;
+  border-radius: 15px;
+}
+.icon-btn {
+  border: none;
+  outline: none;
+  background: none;
+  width: 100%;
+}
+.icon-btn img {
+  margin: 0;
+  padding: 0;
+}

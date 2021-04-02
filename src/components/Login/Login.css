@@ -1,0 +1,29 @@
+.my-btn-google {
+  width: 100%;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  border: rgb(0, 93, 233) 1px solid;
+  outline: none;
+  padding: 5px 20px;
+  height: 55px;
+}
+.my-btn-google:hover {
+  background: whitesmoke;
+}
+.my-btn-google img {
+  width: 10%;
+}
+.my-btn-google span {
+  font-size: 15px;
+  font-weight: 500;
+}
+.login-form {
+  height: 50vh;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+}
+.height-vh {
+  height: 80vh;
+}

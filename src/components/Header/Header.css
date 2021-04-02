@@ -1,0 +1,32 @@
+.my-nav a {
+  text-decoration: none;
+  color: black;
+}
+.my-nav li a {
+  padding: 10px 0;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+.my-nav li:hover a {
+  color: rgb(255, 0, 0);
+}
+.my-btn {
+  color: white !important;
+  border-radius: 25px;
+  padding: 7px 20px !important;
+  font-size: 15px;
+  font-weight: 500;
+}
+.my-btn:hover {
+  color: white !important;
+}
+.pro-pic {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.img-item {
+  width: 60px;
+}
